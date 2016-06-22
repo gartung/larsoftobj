@@ -10,15 +10,15 @@ bindir      -
 #
 product         version
 larsimobj       v1_02_02
-
+gallery		v1_02_03
 cetbuildtools	v5_04_01   -   only_for_build
 end_product_list
   
 # e10 - with gcc 4.9.3 and -std=c++14
-qualifier	larsimobj
-e10:debug	e10:debug
-e10:opt		e10:opt
-e10:prof	e10:prof
+qualifier	larsimobj	gallery
+e10:debug	e10:debug	e10:nu:debug
+e10:opt		e10:opt		e10:nu:opt
+e10:prof	e10:prof	e10:nu:prof
 end_qualifier_list
 
 # Preserve tabs and formatting in emacs and vi / vim:
