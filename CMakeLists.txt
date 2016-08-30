@@ -12,7 +12,7 @@
 #  make package (builds distribution tarfile)
 # ======================================================================
 # LArSoftObj is an empty product
-# It sets up the larsoftobj ups products (larsimobj, lardataobj, larcoreobj)
+# It sets up the larsoftobj ups products (lardataobj, larcoreobj)
 # ======================================================================
 
 
