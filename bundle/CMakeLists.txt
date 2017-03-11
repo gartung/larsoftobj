@@ -19,9 +19,9 @@ endmacro( create_product_variables)
 set( BASEQUAL e10 )
 
 create_product_variables( nusimdata   v1_07_00 )
-create_product_variables( larcoreobj  v1_07_00 )
-create_product_variables( lardataobj  v1_12_00 )
-create_product_variables( larsoftobj  v1_12_00 )
+create_product_variables( larcoreobj  v06_31_00_rc1 )
+create_product_variables( lardataobj  v06_31_00_rc1 )
+create_product_variables( larsoftobj  v06_31_00_rc1 )
 create_product_variables( mrb         v1_09_00 )
 
 # these files should be copied to scisoft for each release
