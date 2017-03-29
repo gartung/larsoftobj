@@ -18,10 +18,12 @@ endmacro( create_product_variables)
 # define qualifiers
 set( BASEQUAL e10 )
 
+create_product_variables( canvas        v1_05_01 )
+create_product_variables( gallery       v1_03_08 )
 create_product_variables( nusimdata   v1_06_01 )
-create_product_variables( larcoreobj  v1_08_00 )
-create_product_variables( lardataobj  v1_13_01 )
-create_product_variables( larsoftobj  v1_14_00 )
+create_product_variables( larcoreobj  v1_09_00 )
+create_product_variables( lardataobj  v1_13_02 )
+create_product_variables( larsoftobj  v1_15_00 )
 create_product_variables( mrb         v1_09_00 )
 
 # these files should be copied to scisoft for each release
