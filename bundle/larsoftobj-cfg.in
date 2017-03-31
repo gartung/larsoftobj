@@ -46,11 +46,13 @@ do_build root v6_06_08 ${basequal}:nu
 ensure_cetpkgsupport v1_11_00
 ensure_cetbuildtools v5_04_03 v5_06_07
 ensure_support_package -f NULL studio v1_00_00
-build_cet cetlib v1_21_00 ${basequal}
-build_cet -p fhicl-cpp fhiclcpp v4_02_00 ${basequal}
-build_cet messagefacility v1_18_00 ${basequal}
-build_cet canvas v1_05_01 ${basequal}:nu
-build_cet gallery v1_03_08 ${basequal}:nu
+ensure_cetbuildtools v5_04_03 v5_04_05 v5_06_06 v5_06_07
+build_cet cetlib_except v1_01_00 ${basequal}
+build_cet cetlib v2_02_00 ${basequal}
+build_cet -p fhicl-cpp fhiclcpp v4_03_02 ${basequal}
+build_cet messagefacility v1_18_03 ${basequal}
+build_cet canvas v1_06_02 ${basequal}:nu
+build_cet gallery v1_03_10 ${basequal}:nu
 
 build_noarch mrb @MRB_VERSION@
 
