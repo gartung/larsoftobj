@@ -22,7 +22,7 @@ create_product_variables( canvas      v1_06_04 )
 create_product_variables( gallery     v1_03_12 )
 create_product_variables( nusimdata   v1_07_01 )
 create_product_variables( larcoreobj  v1_10_00 )
-create_product_variables( lardataobj  v1_14_02 )
+create_product_variables( lardataobj  v1_14_00 )
 create_product_variables( larsoftobj  v1_16_00 )
 create_product_variables( mrb         v1_09_00 )
 
