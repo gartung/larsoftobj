@@ -16,7 +16,7 @@ macro( create_product_variables productname productversion )
 endmacro( create_product_variables)
 
 # define qualifiers
-set( BASEQUAL e10 )
+set( BASEQUAL e14 )
 
 create_product_variables( canvas      v1_06_04 )
 create_product_variables( gallery     v1_03_12 )
