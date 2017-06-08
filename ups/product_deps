@@ -10,8 +10,8 @@ bindir      -
 #
 product         version
 lardataobj      v1_16_00
-gallery		v1_03_12
-cetbuildtools	v5_06_07   -   only_for_build
+gallery		v1_04_03
+cetbuildtools	v5_09_01   -   only_for_build
 end_product_list
   
 # e14 - with gcc 4.9.3 and -std=c++14
