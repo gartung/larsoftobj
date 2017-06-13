@@ -19,7 +19,7 @@ if (( ${build_slf_extras:-0} )); then # only build for SL
 fi
 # add to manifest
 prep_build -f NULL gitflow v1_10_2; add_to_manifest
-build_noarch range v3_0_2_4
+prep_build -f NULL range v3_0_2_4
 
 do_build boost v1_63_0b ${basequal}
 do_build fftw v3_3_6_pl2
@@ -52,7 +52,7 @@ build_cet messagefacility v2_00_02 ${basequal}
 build_cet canvas @CANVAS_VERSION@ ${basequal}:nu
 build_cet gallery @GALLERY_VERSION@ ${basequal}:nu
 
-build_noarch mrb @MRB_VERSION@
+prep_build -f NULL mrb @MRB_VERSION@
 
 build_cet nusimdata  @NUSIMDATA_VERSION@ ${basequal}
 build_cet larcoreobj @LARCOREOBJ_VERSION@ ${basequal}
