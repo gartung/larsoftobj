@@ -15,27 +15,15 @@
 # It sets up the larsoftobj ups products (lardataobj, larcoreobj)
 # ======================================================================
 
+cmake_minimum_required(VERSION 3.0)  
 
-# use cmake 2.8 or later
-cmake_minimum_required (VERSION 2.8)
+project(larsoftobj VERSION 1.21.00 )
 
-project(larsoftobj)
-
-# cetbuildtools contains our cmake modules
-SET ( CETBUILDTOOLS_VERSION $ENV{CETBUILDTOOLS_VERSION} )
-IF (NOT CETBUILDTOOLS_VERSION)
-    MESSAGE (FATAL_ERROR "ERROR: setup cetbuildtools to get the cmake modules")
-ENDIF()
-
-set(CMAKE_MODULE_PATH $ENV{CANVAS_DIR}/Modules
-		      $ENV{CETBUILDTOOLS_DIR}/Modules
-		      ${CMAKE_MODULE_PATH})
+# cetmodules contains our cmake modules
+find_package(cetmodules REQUIRED)
 
 include(CetCMakeEnv)
 cet_cmake_env()
-
-# these are minimum required versions, not the actual product versions
-find_ups_product( cetbuildtools )
 
 # larsoftobj bundle scripts
 add_subdirectory(bundle)
