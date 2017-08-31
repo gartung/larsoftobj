@@ -18,9 +18,9 @@ endmacro( create_product_variables)
 # define qualifiers
 set( BASEQUAL e14 )
 
-create_product_variables( canvas      v3_00_01 )
-create_product_variables( gallery     v1_05_01 )
-create_product_variables( nusimdata   v1_08_02 )
+create_product_variables( canvas      v3_00_02 )
+create_product_variables( gallery     v1_05_02 )
+create_product_variables( nusimdata   v1_08_03 )
 create_product_variables( larcoreobj  v06_47_01_01 )
 create_product_variables( larcorealg  v06_47_01_01 )
 create_product_variables( lardataobj  v06_47_01_01 )
