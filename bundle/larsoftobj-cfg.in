@@ -18,8 +18,6 @@ unset build_label
 
 build_noarch mrb @MRB_VERSION@
 
-ensure_cetbuildtools v5_14_00
-
 build_cet nusimdata  @NUSIMDATA_VERSION@ ${basequal}
 build_cet larcoreobj @LARCOREOBJ_VERSION@ ${basequal}
 build_cet -n larcorealg @LARCOREALG_VERSION@ ${basequal}
