@@ -19,9 +19,9 @@ endmacro( create_product_variables)
 set( BASEQUAL e14 )
 
 create_product_variables( larcoreobj  v1_16_02 )
-create_product_variables( larcorealg  v1_09_02 )
-create_product_variables( lardataobj  v1_21_03 )
-create_product_variables( larsoftobj  v1_29_02 )
+create_product_variables( larcorealg  v1_09_03 )
+create_product_variables( lardataobj  v1_22_00 )
+create_product_variables( larsoftobj  v1_30_00 )
 
 create_product_variables( canvas      v3_00_03 )
 create_product_variables( gallery     v1_05_03 )
