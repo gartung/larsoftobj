@@ -16,12 +16,12 @@ macro( create_product_variables productname productversion )
 endmacro( create_product_variables)
 
 # define qualifiers
-set( BASEQUAL e14 )
+set( BASEQUAL e15 )
 
-create_product_variables( larcoreobj  v1_20_00 )
-create_product_variables( larcorealg  v1_17_00 )
-create_product_variables( lardataobj  v1_28_00 )
-create_product_variables( larsoftobj  v1_39_00 )
+create_product_variables( larcoreobj  v1_21_00 )
+create_product_variables( larcorealg  v1_17_01 )
+create_product_variables( lardataobj  v1_28_01 )
+create_product_variables( larsoftobj  v1_40_00 )
 
 create_product_variables( canvas      v3_01_03 )
 create_product_variables( gallery     v1_06_04 )
