@@ -20,12 +20,12 @@ set( BASEQUAL e15 )
 
 create_product_variables( larcoreobj  v1_21_00 )
 create_product_variables( larcorealg  v1_17_01 )
-create_product_variables( lardataobj  v1_28_01 )
-create_product_variables( larsoftobj  v1_40_00 )
+create_product_variables( lardataobj  v1_28_02 )
+create_product_variables( larsoftobj  v1_40_01 )
 
 create_product_variables( canvas      v3_01_03 )
 create_product_variables( gallery     v1_06_04 )
-create_product_variables( nusimdata   v1_09_01 )
+create_product_variables( nusimdata   v1_10_00 )
 create_product_variables( mrb         v1_14_00 )
 
 # these files should be copied to scisoft for each release
