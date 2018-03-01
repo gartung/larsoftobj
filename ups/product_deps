@@ -1,6 +1,6 @@
 # The parent line must be the first non-comment line in the file
 # This line defines the product name and version
-parent	larsoftobj	v1_40_01
+parent	larsoftobj	v1_41_00
 defaultqual	e15
 
 # larsoftobj itself has no directories
@@ -9,20 +9,20 @@ fcldir      -
 bindir      -
 #
 product         version
-lardataobj      v1_28_02
-larcorealg      v1_17_01
-gallery         v1_06_04
+lardataobj      v1_29_00
+larcorealg      v1_18_00
+gallery         v1_07_02
 cetbuildtools	v7_00_03   -   only_for_build
 end_product_list
   
 # e15 - with gcc 6.4.0 and -std=c++14
 qualifier	lardataobj	larcorealg	gallery
-e15:debug	e15:debug	e15:debug	e15:nu:debug
-e15:opt		e15:opt		e15:opt		e15:nu:opt
-e15:prof	e15:prof	e15:prof	e15:nu:prof
-e14:debug	e14:debug	e14:debug	e14:nu:debug
-e14:opt		e14:opt		e14:opt		e14:nu:opt
-e14:prof	e14:prof	e14:prof	e14:nu:prof
+e15:debug	e15:debug	e15:debug	e15:debug
+e15:opt		e15:opt		e15:opt		e15:opt
+e15:prof	e15:prof	e15:prof	e15:prof
+e14:debug	e14:debug	e14:debug	e14:debug
+e14:opt		e14:opt		e14:opt		e14:opt
+e14:prof	e14:prof	e14:prof	e14:prof
 end_qualifier_list
 
 # Preserve tabs and formatting in emacs and vi / vim:
