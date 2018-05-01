@@ -11,8 +11,8 @@ bindir      -
 product         version
 lardataobj      v1_31_00
 larcorealg      v1_19_01
-gallery         v1_07_02
-cetbuildtools	v7_02_01   -   only_for_build
+gallery         v1_08_01
+cetbuildtools	v7_03_02   -   only_for_build
 end_product_list
   
 # e15 - with gcc 6.4.0 and -std=c++14
