@@ -25,6 +25,7 @@ create_product_variables( larsoftobj  v1_43_01_01 )
 
 create_product_variables( canvas      v3_03_01 )
 create_product_variables( gallery     v1_08_01 )
+create_product_variables( dk2nudata   v01_06_01b )
 create_product_variables( nusimdata   v1_13_00 )
 create_product_variables( mrb         v1_14_00 )
 
