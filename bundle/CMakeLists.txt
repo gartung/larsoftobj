@@ -29,11 +29,7 @@ create_product_variables( nusimdata   v1_13_01 )
 create_product_variables( mrb         v1_14_00 )
 
 # these files should be copied to scisoft for each release
-configure_file(${CMAKE_CURRENT_SOURCE_DIR}/larsoftobj-buildcfg.in
-  ${CMAKE_CURRENT_BINARY_DIR}/larsoftobj-buildcfg-${LARSOFTOBJ_DOT_VERSION} @ONLY )
 configure_file(${CMAKE_CURRENT_SOURCE_DIR}/larsoftobj-cfg.in
   ${CMAKE_CURRENT_BINARY_DIR}/larsoftobj-cfg-${LARSOFTOBJ_DOT_VERSION} @ONLY )
-configure_file(${CMAKE_CURRENT_SOURCE_DIR}/larsoftobj-source-manifest.in
-  ${CMAKE_CURRENT_BINARY_DIR}/larsoftobj-${LARSOFTOBJ_DOT_VERSION}-source_MANIFEST.txt @ONLY )
 CONFIGURE_FILE ( ${CMAKE_CURRENT_SOURCE_DIR}/larsoftobj.html.in
   ${CMAKE_CURRENT_BINARY_DIR}/larsoftobj-${LARSOFTOBJ_VERSION}.html @ONLY )
