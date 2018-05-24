@@ -19,14 +19,15 @@ endmacro( create_product_variables)
 set( BASEQUAL e15 )
 
 create_product_variables( larcoreobj  v1_23_00 )
-create_product_variables( larcorealg  v1_20_00 )
-create_product_variables( lardataobj  v1_32_01 )
-create_product_variables( larsoftobj  v1_44_01 )
+create_product_variables( larcorealg  v1_21_00 )
+create_product_variables( lardataobj  v1_32_02 )
+create_product_variables( lardataalg  v1_00_00 )
+create_product_variables( larsoftobj  v1_45_00 )
 
 create_product_variables( canvas      v3_02_02 )
 create_product_variables( gallery     v1_07_02 )
-create_product_variables( nusimdata   v1_12_01 )
-create_product_variables( mrb         v1_14_00 )
+create_product_variables( nusimdata   v1_12_02 )
+create_product_variables( mrb         v1_15_01 )
 
 # these files should be copied to scisoft for each release
 configure_file(${CMAKE_CURRENT_SOURCE_DIR}/larsoftobj-buildcfg.in
