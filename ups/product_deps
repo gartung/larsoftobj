@@ -11,7 +11,7 @@ bindir      -
 product         version
 lardataalg      v1_00_01
 lardataobj      v1_32_02
-gallery         v1_07_02
+gallery         v1_08_02
 cetbuildtools	v7_03_02   -   only_for_build
 end_product_list
   

@@ -24,17 +24,14 @@ create_product_variables( lardataobj  v1_32_02 )
 create_product_variables( lardataalg  v1_00_01 )
 create_product_variables( larsoftobj  v1_46_00 )
 
-create_product_variables( canvas      v3_02_02 )
-create_product_variables( gallery     v1_07_02 )
-create_product_variables( nusimdata   v1_12_02 )
+create_product_variables( canvas      v3_03_02 )
+create_product_variables( gallery     v1_08_02 )
+create_product_variables( dk2nudata   v01_06_01b )
+create_product_variables( nusimdata   v1_13_01 )
 create_product_variables( mrb         v1_15_01 )
 
 # these files should be copied to scisoft for each release
-configure_file(${CMAKE_CURRENT_SOURCE_DIR}/larsoftobj-buildcfg.in
-  ${CMAKE_CURRENT_BINARY_DIR}/larsoftobj-buildcfg-${LARSOFTOBJ_DOT_VERSION} @ONLY )
 configure_file(${CMAKE_CURRENT_SOURCE_DIR}/larsoftobj-cfg.in
   ${CMAKE_CURRENT_BINARY_DIR}/larsoftobj-cfg-${LARSOFTOBJ_DOT_VERSION} @ONLY )
-configure_file(${CMAKE_CURRENT_SOURCE_DIR}/larsoftobj-source-manifest.in
-  ${CMAKE_CURRENT_BINARY_DIR}/larsoftobj-${LARSOFTOBJ_DOT_VERSION}-source_MANIFEST.txt @ONLY )
 CONFIGURE_FILE ( ${CMAKE_CURRENT_SOURCE_DIR}/larsoftobj.html.in
   ${CMAKE_CURRENT_BINARY_DIR}/larsoftobj-${LARSOFTOBJ_VERSION}.html @ONLY )
