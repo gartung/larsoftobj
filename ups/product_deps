@@ -1,7 +1,7 @@
 # The parent line must be the first non-comment line in the file
 # This line defines the product name and version
-parent	larsoftobj	v07_01_01
-defaultqual	e15
+parent	larsoftobj	v07_02_00
+defaultqual	e17
 
 # larsoftobj itself has no directories
 incdir      -
@@ -9,18 +9,15 @@ fcldir      -
 bindir      -
 #
 product         version
-lardataalg      v07_00_01
-lardataobj      v07_01_01
+lardataalg      v07_00_02
+lardataobj      v07_02_00
 gallery         v1_08_03
 cetbuildtools	v7_04_00   -   only_for_build
 end_product_list
   
-# e15 - with gcc 6.4.0 and -std=c++14
 qualifier	lardataobj	lardataalg	gallery
 e17:debug	e17:debug	e17:debug	e17:debug
 e17:prof	e17:prof	e17:prof	e17:prof
-e15:debug	e15:debug	e15:debug	e15:debug
-e15:prof	e15:prof	e15:prof	e15:prof
 c2:debug	c2:debug	c2:debug	c2:debug
 c2:prof		c2:prof		c2:prof		c2:prof
 end_qualifier_list
