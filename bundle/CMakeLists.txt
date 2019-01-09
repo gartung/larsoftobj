@@ -25,10 +25,10 @@ create_product_variables( lardataalg  v08_01_00 )
 create_product_variables( larsoftobj  v08_01_00 )
 
 create_product_variables( canvas      v3_04_00 )
-create_product_variables( gallery     v1_09_00 )
+create_product_variables( gallery     v1_10_00 )
 create_product_variables( dk2nudata   v01_07_02 )
 create_product_variables( nusimdata   v1_15_00 )
-create_product_variables( mrb         v2_00_01 )
+create_product_variables( mrb         v2_00_02 )
 
 # these files should be copied to scisoft for each release
 configure_file(${CMAKE_CURRENT_SOURCE_DIR}/larsoftobj-cfg.in
