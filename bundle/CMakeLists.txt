@@ -22,7 +22,7 @@ create_product_variables( larcoreobj  v08_00_00 )
 create_product_variables( larcorealg  v08_00_00 )
 create_product_variables( lardataobj  v08_00_00 )
 create_product_variables( lardataalg  v08_01_00 )
-create_product_variables( larsoftobj  v08_01_00 )
+create_product_variables( larsoftobj  v08_01_01 )
 
 create_product_variables( canvas      v3_04_00 )
 create_product_variables( gallery     v1_10_00 )
