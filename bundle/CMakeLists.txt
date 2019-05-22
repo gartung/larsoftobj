@@ -20,9 +20,9 @@ set( BASEQUAL e17 )
 
 create_product_variables( larcoreobj  v08_05_00 )
 create_product_variables( larcorealg  v08_12_00 )
-create_product_variables( lardataobj  v08_04_01 )
-create_product_variables( lardataalg  v08_07_00 )
-create_product_variables( larsoftobj  v08_15_00 )
+create_product_variables( lardataobj  v08_04_02 )
+create_product_variables( lardataalg  v08_07_01 )
+create_product_variables( larsoftobj  v08_15_01 )
 
 create_product_variables( canvas      v3_07_03 )
 create_product_variables( gallery     v1_12_03 )
