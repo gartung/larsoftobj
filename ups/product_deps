@@ -1,6 +1,6 @@
 # The parent line must be the first non-comment line in the file
 # This line defines the product name and version
-parent	larsoftobj	v08_15_02
+parent	larsoftobj	v08_15_02_01
 defaultqual	e17
 
 # larsoftobj itself has no directories
@@ -9,13 +9,17 @@ fcldir      -
 bindir      -
 #
 product         version
-lardataalg      v08_07_02
-lardataobj      v08_04_03
+lardataalg      v08_07_02_01
+lardataobj      v08_04_03_01
 gallery         v1_12_04
 cetbuildtools	v7_12_01   -   only_for_build
 end_product_list
   
 qualifier	lardataobj	lardataalg	gallery
+e17:py3:debug	e17:py3:debug	e17:py3:debug	e17:py3:debug
+e17:py3:prof	e17:py3:prof	e17:py3:prof	e17:py3:prof
+c2:py3:debug	c2:py3:debug	c2:py3:debug	c2:py3:debug
+c2:py3:prof	c2:py3:prof	c2:py3:prof	c2:py3:prof
 e17:debug	e17:debug	e17:debug	e17:debug
 e17:prof	e17:prof	e17:prof	e17:prof
 c2:debug	c2:debug	c2:debug	c2:debug
