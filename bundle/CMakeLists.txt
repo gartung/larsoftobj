@@ -16,7 +16,7 @@ macro( create_product_variables productname productversion )
 endmacro( create_product_variables)
 
 # define qualifiers
-set( BASEQUAL e17 )
+set( BASEQUAL e19 )
 
 create_product_variables( larcoreobj  v08_10_00 )
 create_product_variables( larcorealg  v08_20_00 )
