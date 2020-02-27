@@ -3,23 +3,17 @@
 #
 #  cd .../path/to/build/directory
 #  source .../path/to/larsoftobj/ups/setup_for_development <-d|-p>
-#  cmake [-DCMAKE_INSTALL_PREFIX=/install/path]
-#        -DCMAKE_BUILD_TYPE=$CETPKG_TYPE
-#        $CETPKG_SOURCE
-#  make
-#  make test
-#  make install
-#  make package (builds distribution tarfile)
+#  buildtool [-I /install/path] -bt[i] -jN
 # ======================================================================
 # LArSoftObj is an empty product
 # It sets up the larsoftobj ups products (lardataobj, larcoreobj)
 # ======================================================================
 
 
-# use cmake 2.8 or later
-cmake_minimum_required (VERSION 2.8)
+# use cmake 3.14 or later
+cmake_minimum_required (VERSION 3.12...3.14 FATAL_ERROR)
 
-project(larsoftobj)
+project(larsoftobj LANGUAGES NONE)
 
 # cetbuildtools contains our cmake modules
 SET ( CETBUILDTOOLS_VERSION $ENV{CETBUILDTOOLS_VERSION} )
