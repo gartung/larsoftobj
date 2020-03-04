@@ -18,17 +18,17 @@ endmacro( create_product_variables)
 # define qualifiers
 set( BASEQUAL e19 )
 
-create_product_variables( larcoreobj  v08_10_02 )
-create_product_variables( larcorealg  v08_21_00 )
-create_product_variables( lardataobj  v08_10_03 )
-create_product_variables( lardataalg  v08_13_03 )
-create_product_variables( larsoftobj  v08_27_00 )
+create_product_variables( larcoreobj  v08_10_03 )
+create_product_variables( larcorealg  v08_21_01 )
+create_product_variables( lardataobj  v08_10_04 )
+create_product_variables( lardataalg  v08_13_04 )
+create_product_variables( larsoftobj  v08_27_01 )
 
 create_product_variables( canvas_root_io v1_05_01 )
 create_product_variables( gallery     v1_14_01 )
 create_product_variables( dk2nudata   v01_08_00g )
 create_product_variables( nusimdata   v1_21_01 )
-create_product_variables( mrb         v3_05_03 )
+create_product_variables( mrb         v4_00_01 )
 create_product_variables( hub         v2_12_4 )
 
 # these files should be copied to scisoft for each release
