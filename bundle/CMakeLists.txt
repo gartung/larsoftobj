@@ -19,7 +19,7 @@ endmacro( create_product_variables)
 set( BASEQUAL e19 )
 
 create_product_variables( larcoreobj  v08_10_04 )
-create_product_variables( larcorealg  v08_21_01 )
+create_product_variables( larcorealg  v08_21_02 )
 create_product_variables( lardataobj  v08_10_05 )
 create_product_variables( lardataalg  v08_13_05 )
 create_product_variables( larsoftobj  v08_27_02 )
